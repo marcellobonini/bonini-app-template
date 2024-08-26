@@ -12,6 +12,7 @@ Inside `/prisma` there is database schema in which you should set up your databa
 npx prisma generate
 ```
 ### Create .env file to store your secrets
+You should add `NEXTAUTH_URL, SECRET_KEY, NEXTAUTH_SECRET and database urls from prisma config`
 
 ### Changing texts and routes
 You should change all the texts and routes inside `layout.tsx, page.tsx and on pages inside /app/auth`
